@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.header {
+    background-color: cornsilk;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+
+.header section {
+    list-style-type: none;
+}
+
+.header section li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+body {
+    background-color:rgb(128, 188, 210)
+}
+
+.h2 {
+  float: left;  
+}
+.article {
+    float: right;
+}
+
+.boxes {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #3c88e6;
+
+} 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  .main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  .card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  .card img {
+    width: 100%;
+    min-width: 400px;
+  }
+  
