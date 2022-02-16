@@ -69,7 +69,7 @@ header nav li a:hover {
     background-color: transparent;
     text-decoration: underline;
     text-underline-offset: 0.4em; 
-    text-decoration-thickness: 5px
+    text-decoration-thickness: 5px;
   }
 /* banner */
 .container {
@@ -155,18 +155,22 @@ main {
     border-width: 8px;
     color: #5c616d;
     border-radius: 25px;
-    margin: 5px;
+    margin: 7px;
   }
   
   .card header {
     padding: 20px;
     background: #13293d;
     color: #fff;
+    border-radius: 20px;
   }
   
   .card img {
     width: 100%;
     min-width: 400px;
+    max-height: 225px;
+    border-radius: 25px;
+    margin-top: 10px;
   }
   .info {
     text-align: center;
@@ -195,5 +199,7 @@ hr {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-
+.footer p a {
+    color: rgb(220, 113, 55);
+}
   
